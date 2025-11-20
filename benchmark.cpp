@@ -93,12 +93,40 @@ int main(int argc, char** argv)
         memcpy((void *)Ycopy, (const void *)Y, sizeof(double)*n);
 
         // insert start timer code here
+        // start timer
+        auto start_time = std::chrono::high_resolution_clock::now();
 
         // call the method to do the work
         my_dgemv(n, A, X, Y); 
 
         // insert end timer code here, and print out the elapsed time for this problem size
+        // end timer
+        auto end_time = std::chrono::high_resolution_clock::now();
+        std::chrono::duration<double> elapsed = end_time - start_time;
+        double time = elapsed.count();
 
+        // FLOPs for DGEMV (y = y + A*x): 2*N^2
+        double flops  = 2.0 * n * n;
+        double mflops = (flops / 1.0e6) / time;
+
+
+        // Bytes
+        double bytes  = 8.0 * (2.0 * n * n + 2.0 * n);
+
+        // peak memory bandwidth (in bytes/sec)
+        const double PEAK_BW_BPS = 2.048e+11;
+
+        // % bandwidth utilized
+        double pct_bw = (PEAK_BW_BPS > 0.0) ? ((bytes / time) / PEAK_BW_BPS) * 100.0 : -1.0;
+
+        // print elapsed time
+        printf("Elapsed time (sec) = %0.6f\n", time);
+        printf("MFLOP/s = %.3f\n", mflops);
+        if (PEAK_BW_BPS > 0.0) printf("%% peak BW = %.2f%%\n", pct_bw);
+
+        // CSV
+        printf("CSV,N,%d,time_s,%.6f,MFLOPS,%.3f,bytes,%.0f,percent_bw,%.2f\n\n",
+               n, time, mflops, bytes, pct_bw);
 
         // now invoke the cblas method to compute the matrix-vector multiplye
         reference_dgemv(n, Acopy, Xcopy, Ycopy);
