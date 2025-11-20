@@ -1,0 +1,38 @@
+Description:	Basic implementation of matrix-vector multiply.
+
+Working on problem size N=1024 
+Elapsed time (sec) = 0.001024
+MFLOP/s = 2047.806
+% peak BW = 8.01%
+CSV,N,1024,time_s,0.001024,MFLOPS,2047.806,bytes,16793600,percent_bw,8.01
+
+Working on problem size N=1024 
+Elapsed time (sec) = 0.000954
+MFLOP/s = 2197.494
+% peak BW = 8.59%
+CSV,N,1024,time_s,0.000954,MFLOPS,2197.494,bytes,16793600,percent_bw,8.59
+
+Working on problem size N=2048 
+Elapsed time (sec) = 0.003814
+MFLOP/s = 2199.140
+% peak BW = 8.59%
+CSV,N,2048,time_s,0.003814,MFLOPS,2199.140,bytes,67141632,percent_bw,8.59
+
+Working on problem size N=4096 
+Elapsed time (sec) = 0.015752
+MFLOP/s = 2130.172
+% peak BW = 8.32%
+CSV,N,4096,time_s,0.015752,MFLOPS,2130.172,bytes,268500992,percent_bw,8.32
+
+Working on problem size N=8192 
+Elapsed time (sec) = 0.062863
+MFLOP/s = 2135.089
+% peak BW = 8.34%
+CSV,N,8192,time_s,0.062863,MFLOPS,2135.089,bytes,1073872896,percent_bw,8.34
+
+Working on problem size N=16384 
+Elapsed time (sec) = 0.241968
+MFLOP/s = 2218.768
+% peak BW = 8.67%
+CSV,N,16384,time_s,0.241968,MFLOPS,2218.768,bytes,4295229440,percent_bw,8.67
+

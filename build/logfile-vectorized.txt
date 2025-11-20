@@ -1,0 +1,38 @@
+Description:	Vectorized implementation of matrix-vector multiply.
+
+Working on problem size N=1024 
+Elapsed time (sec) = 0.000399
+MFLOP/s = 5261.387
+% peak BW = 20.57%
+CSV,N,1024,time_s,0.000399,MFLOPS,5261.387,bytes,16793600,percent_bw,20.57
+
+Working on problem size N=1024 
+Elapsed time (sec) = 0.000346
+MFLOP/s = 6052.457
+% peak BW = 23.67%
+CSV,N,1024,time_s,0.000346,MFLOPS,6052.457,bytes,16793600,percent_bw,23.67
+
+Working on problem size N=2048 
+Elapsed time (sec) = 0.001333
+MFLOP/s = 6293.393
+% peak BW = 24.60%
+CSV,N,2048,time_s,0.001333,MFLOPS,6293.393,bytes,67141632,percent_bw,24.60
+
+Working on problem size N=4096 
+Elapsed time (sec) = 0.005220
+MFLOP/s = 6427.801
+% peak BW = 25.11%
+CSV,N,4096,time_s,0.005220,MFLOPS,6427.801,bytes,268500992,percent_bw,25.11
+
+Working on problem size N=8192 
+Elapsed time (sec) = 0.065944
+MFLOP/s = 2035.332
+% peak BW = 7.95%
+CSV,N,8192,time_s,0.065944,MFLOPS,2035.332,bytes,1073872896,percent_bw,7.95
+
+Working on problem size N=16384 
+Elapsed time (sec) = 0.086138
+MFLOP/s = 6232.704
+% peak BW = 24.35%
+CSV,N,16384,time_s,0.086138,MFLOPS,6232.704,bytes,4295229440,percent_bw,24.35
+

@@ -1,0 +1,156 @@
+OMP_NUM_THREASDS =  1
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+Elapsed time (sec) = 0.001122
+MFLOP/s = 1868.801
+% peak BW = 7.31%
+CSV,N,1024,time_s,0.001122,MFLOPS,1868.801,bytes,16793600,percent_bw,7.31
+
+Working on problem size N=1024 
+Elapsed time (sec) = 0.000992
+MFLOP/s = 2114.561
+% peak BW = 8.27%
+CSV,N,1024,time_s,0.000992,MFLOPS,2114.561,bytes,16793600,percent_bw,8.27
+
+Working on problem size N=2048 
+Elapsed time (sec) = 0.003872
+MFLOP/s = 2166.416
+% peak BW = 8.47%
+CSV,N,2048,time_s,0.003872,MFLOPS,2166.416,bytes,67141632,percent_bw,8.47
+
+Working on problem size N=4096 
+Elapsed time (sec) = 0.016788
+MFLOP/s = 1998.719
+% peak BW = 7.81%
+CSV,N,4096,time_s,0.016788,MFLOPS,1998.719,bytes,268500992,percent_bw,7.81
+
+Working on problem size N=8192 
+Elapsed time (sec) = 0.081218
+MFLOP/s = 1652.571
+% peak BW = 6.46%
+CSV,N,8192,time_s,0.081218,MFLOPS,1652.571,bytes,1073872896,percent_bw,6.46
+
+Working on problem size N=16384 
+Elapsed time (sec) = 0.268579
+MFLOP/s = 1998.929
+% peak BW = 7.81%
+CSV,N,16384,time_s,0.268579,MFLOPS,1998.929,bytes,4295229440,percent_bw,7.81
+
+OMP_NUM_THREASDS =  4
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+Elapsed time (sec) = 0.001301
+MFLOP/s = 1611.602
+% peak BW = 6.30%
+CSV,N,1024,time_s,0.001301,MFLOPS,1611.602,bytes,16793600,percent_bw,6.30
+
+Working on problem size N=1024 
+Elapsed time (sec) = 0.000478
+MFLOP/s = 4390.286
+% peak BW = 17.17%
+CSV,N,1024,time_s,0.000478,MFLOPS,4390.286,bytes,16793600,percent_bw,17.17
+
+Working on problem size N=2048 
+Elapsed time (sec) = 0.001900
+MFLOP/s = 4414.618
+% peak BW = 17.25%
+CSV,N,2048,time_s,0.001900,MFLOPS,4414.618,bytes,67141632,percent_bw,17.25
+
+Working on problem size N=4096 
+Elapsed time (sec) = 0.006255
+MFLOP/s = 5364.279
+% peak BW = 20.96%
+CSV,N,4096,time_s,0.006255,MFLOPS,5364.279,bytes,268500992,percent_bw,20.96
+
+Working on problem size N=8192 
+Elapsed time (sec) = 0.022529
+MFLOP/s = 5957.642
+% peak BW = 23.27%
+CSV,N,8192,time_s,0.022529,MFLOPS,5957.642,bytes,1073872896,percent_bw,23.27
+
+Working on problem size N=16384 
+Elapsed time (sec) = 0.100681
+MFLOP/s = 5332.386
+% peak BW = 20.83%
+CSV,N,16384,time_s,0.100681,MFLOPS,5332.386,bytes,4295229440,percent_bw,20.83
+
+OMP_NUM_THREASDS =  16
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+Elapsed time (sec) = 0.001965
+MFLOP/s = 1067.133
+% peak BW = 4.17%
+CSV,N,1024,time_s,0.001965,MFLOPS,1067.133,bytes,16793600,percent_bw,4.17
+
+Working on problem size N=1024 
+Elapsed time (sec) = 0.000683
+MFLOP/s = 3069.813
+% peak BW = 12.00%
+CSV,N,1024,time_s,0.000683,MFLOPS,3069.813,bytes,16793600,percent_bw,12.00
+
+Working on problem size N=2048 
+Elapsed time (sec) = 0.003446
+MFLOP/s = 2434.643
+% peak BW = 9.51%
+CSV,N,2048,time_s,0.003446,MFLOPS,2434.643,bytes,67141632,percent_bw,9.51
+
+Working on problem size N=4096 
+Elapsed time (sec) = 0.004014
+MFLOP/s = 8358.792
+% peak BW = 32.66%
+CSV,N,4096,time_s,0.004014,MFLOPS,8358.792,bytes,268500992,percent_bw,32.66
+
+Working on problem size N=8192 
+Elapsed time (sec) = 0.018561
+MFLOP/s = 7231.042
+% peak BW = 28.25%
+CSV,N,8192,time_s,0.018561,MFLOPS,7231.042,bytes,1073872896,percent_bw,28.25
+
+Working on problem size N=16384 
+Elapsed time (sec) = 0.202744
+MFLOP/s = 2648.026
+% peak BW = 10.34%
+CSV,N,16384,time_s,0.202744,MFLOPS,2648.026,bytes,4295229440,percent_bw,10.34
+
+OMP_NUM_THREASDS =  64
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024 
+Elapsed time (sec) = 0.006551
+MFLOP/s = 320.124
+% peak BW = 1.25%
+CSV,N,1024,time_s,0.006551,MFLOPS,320.124,bytes,16793600,percent_bw,1.25
+
+Working on problem size N=1024 
+Elapsed time (sec) = 0.000654
+MFLOP/s = 3204.797
+% peak BW = 12.53%
+CSV,N,1024,time_s,0.000654,MFLOPS,3204.797,bytes,16793600,percent_bw,12.53
+
+Working on problem size N=2048 
+Elapsed time (sec) = 0.010838
+MFLOP/s = 774.006
+% peak BW = 3.02%
+CSV,N,2048,time_s,0.010838,MFLOPS,774.006,bytes,67141632,percent_bw,3.02
+
+Working on problem size N=4096 
+Elapsed time (sec) = 0.003902
+MFLOP/s = 8598.764
+% peak BW = 33.60%
+CSV,N,4096,time_s,0.003902,MFLOPS,8598.764,bytes,268500992,percent_bw,33.60
+
+Working on problem size N=8192 
+Elapsed time (sec) = 0.016029
+MFLOP/s = 8373.223
+% peak BW = 32.71%
+CSV,N,8192,time_s,0.016029,MFLOPS,8373.223,bytes,1073872896,percent_bw,32.71
+
+Working on problem size N=16384 
+Elapsed time (sec) = 0.064489
+MFLOP/s = 8325.005
+% peak BW = 32.52%
+CSV,N,16384,time_s,0.064489,MFLOPS,8325.005,bytes,4295229440,percent_bw,32.52
+

@@ -1,0 +1,7 @@
+/global/homes/a/akay47/VectorMatrixMultiplication/build/CMakeFiles/rebuild_cache.dir
+/global/homes/a/akay47/VectorMatrixMultiplication/build/CMakeFiles/benchmark-openmp.dir
+/global/homes/a/akay47/VectorMatrixMultiplication/build/CMakeFiles/benchmark-blas.dir
+/global/homes/a/akay47/VectorMatrixMultiplication/build/CMakeFiles/edit_cache.dir
+/global/homes/a/akay47/VectorMatrixMultiplication/build/CMakeFiles/benchmark-vectorized.dir
+/global/homes/a/akay47/VectorMatrixMultiplication/build/CMakeFiles/benchmark-basic.dir
+/global/homes/a/akay47/VectorMatrixMultiplication/build/CMakeFiles/benchmark.dir

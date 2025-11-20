@@ -1,0 +1,38 @@
+Description:	Reference dgemv.
+
+Working on problem size N=1024 
+Elapsed time (sec) = 0.000433
+MFLOP/s = 4845.142
+% peak BW = 18.94%
+CSV,N,1024,time_s,0.000433,MFLOPS,4845.142,bytes,16793600,percent_bw,18.94
+
+Working on problem size N=1024 
+Elapsed time (sec) = 0.000230
+MFLOP/s = 9114.921
+% peak BW = 35.64%
+CSV,N,1024,time_s,0.000230,MFLOPS,9114.921,bytes,16793600,percent_bw,35.64
+
+Working on problem size N=2048 
+Elapsed time (sec) = 0.000786
+MFLOP/s = 10675.327
+% peak BW = 41.72%
+CSV,N,2048,time_s,0.000786,MFLOPS,10675.327,bytes,67141632,percent_bw,41.72
+
+Working on problem size N=4096 
+Elapsed time (sec) = 0.004339
+MFLOP/s = 7732.676
+% peak BW = 30.21%
+CSV,N,4096,time_s,0.004339,MFLOPS,7732.676,bytes,268500992,percent_bw,30.21
+
+Working on problem size N=8192 
+Elapsed time (sec) = 0.018605
+MFLOP/s = 7214.240
+% peak BW = 28.18%
+CSV,N,8192,time_s,0.018605,MFLOPS,7214.240,bytes,1073872896,percent_bw,28.18
+
+Working on problem size N=16384 
+Elapsed time (sec) = 0.075983
+MFLOP/s = 7065.711
+% peak BW = 27.60%
+CSV,N,16384,time_s,0.075983,MFLOPS,7065.711,bytes,4295229440,percent_bw,27.60
+
